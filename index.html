@@ -22,7 +22,7 @@
 <body>
     <div id="root">
         <ul>
-            <li v-for="item in randomEmail">{{item}}</li>
+            <li v-if="randomEmail.length > maxLengthEmail - 1" v-for="item in randomEmail">{{item}}</li>
         </ul>
     </div>
 </body>
