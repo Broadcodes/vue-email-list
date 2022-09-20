@@ -6,4 +6,45 @@
 
 body {
     font-family: sans-serif;
+    background: rgb(4, 0, 62);
+    background: radial-gradient(circle, rgba(4, 0, 62, 1) 0%, rgba(0, 0, 8, 1) 100%);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+    padding: 20px;
+    font-size: 2.5rem;
+    letter-spacing: 1.2rem;
+    color: blue;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 8, 0) 100%);
+}
+
+ul {
+    width: 70vh;
+    list-style-type: none;
+    padding: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+li {
+    color: #fff;
+    font-size: 1.1rem;
+    line-height: 2.5rem;
+}
+
+li:hover {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(0,0,8,0) 100%);
 }
